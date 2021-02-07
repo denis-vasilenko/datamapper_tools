@@ -1,21 +1,26 @@
 {
-    "name": "dvasilenko/datamapper_tools",
-    "description": "Useful utilities DataMapper",
-    "license": "proprietary",
-    "authors": [
-        {
-            "name": "Denis",
-            "email": "d.vasilenko@alterego-russia.ru"
-        }
-    ],
-    "require": {
-        "php": ">=7.2",
-        "phpunit/phpunit": "*",
-        "nesbot/carbon": "*"
-    },
-    "autoload": {
-        "classmap": [
-            "src"
-        ]
+  "name": "dvasilenko/datamapper_tools",
+  "description": "Useful utilities DataMapper",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Denis",
+      "email": "d.vasilenko@alterego-russia.ru"
     }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "phpunit/phpunit": "*",
+    "nesbot/carbon": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "src"
+    ]
+  },
+  "keywords": [
+    "php",
+    "mapper",
+    "DataMapper"
+  ]
 }
